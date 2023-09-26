@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Check Spelling"}
 
 @app.post("/inputs")
 def create_input(payload: str = Body(...)):
