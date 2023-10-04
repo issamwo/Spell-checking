@@ -33,9 +33,9 @@ class SpellCorrection(object):
         input_ids = self.tokenizer.encode(inputs,return_tensors='pt')
         sample_output = self.model.generate(
             input_ids,
-            do_sample=True,
+            do_sample=False,
             max_length=MAX_LENGTH,
-            top_p=0.99,
+            top_p=0,
             num_return_sequences=1
         )
         res = self.tokenizer.decode(sample_output[0], skip_special_tokens=True)
