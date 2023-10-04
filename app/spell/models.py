@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline, TFBartForConditionalGeneration
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from spellchecker import SpellChecker
 
 from .conf import SPELL_CHECKER_HUGGINGFACE_MODEL_NAME, FIX_SPELLING_HUGGINGFACE_MODEL_NAME, TASK, MAX_LENGTH
