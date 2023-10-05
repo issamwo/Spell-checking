@@ -2,7 +2,7 @@ server {
         listen 80 default_server;
         listen [::]:80 default_server;
 
-        server_name _; # replace with specific domain name like sanjeev.com
+        server_name _; # replace with specific domain name
         
         location / {
                 proxy_pass http://localhost:8000;
