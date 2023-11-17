@@ -1,0 +1,1 @@
+PATH_KNOWLEDGE="app\spell_knowledge\knowledge_base\knowledge.txt"
