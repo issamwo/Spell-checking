@@ -3,7 +3,7 @@ from fastapi.params import Body
 
 from .spell.models import SpellCorrection
 from .spell.clean_text import clean_stopwords
-from .spell_knowledge.spell_knowledge_correct import correct_knowledge_spell
+#from .spell_knowledge.spell_knowledge_correct import correct_knowledge_spell
 
 
 app = FastAPI()
