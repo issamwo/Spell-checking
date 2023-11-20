@@ -16,19 +16,19 @@ def root():
 @app.post("/inputs")
 def create_input(payload: str = Body(...)):
     output = SpellCorrection()
-    #method_corrected_spelling= output.correct_spelling(payload)
-    #method_spell_checker= output.spell_checker(payload)
+    method_corrected_spelling= output.correct_spelling(payload)
+    method_spell_checker= output.spell_checker(payload)
     method_fix_spelling= output.fix_spelling(payload)
 
     #method_knowledge = correct_knowledge_spell(payload)
 
     return{
-        #"methode 1": method_corrected_spelling, 
-        #"methode 2": method_spell_checker,
-        "methode generale": method_fix_spelling,
+        "methode 1": method_corrected_spelling, 
+        "methode 2": method_spell_checker,
+        "methode 3": method_fix_spelling,
         #"methode KNOWLEDGE": method_knowledge,
-        #"methode 1 key words": clean_stopwords(method_corrected_spelling), 
-        #"methode 2 key words": clean_stopwords(method_spell_checker),
-        "methode generale key words": clean_stopwords(method_fix_spelling),
+        "methode 1 key words": clean_stopwords(method_corrected_spelling), 
+        "methode 2 key words": clean_stopwords(method_spell_checker),
+        "methode 3 key words": clean_stopwords(method_fix_spelling),
         #"methode KNOWLEDGE key words": clean_stopwords(method_knowledge),
         }
