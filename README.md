@@ -1,3 +1,5 @@
+### Tools : Pyhton, FastApi, Transformers (Huggingface), Pytest, Github actions, Docker, Docker compose
+
 # Spell
 
 - Spell checker app
@@ -6,3 +8,4 @@
 
   * "leroymerin":
                 => {"Leroy Merlin"}
+    
