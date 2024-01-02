@@ -1,4 +1,4 @@
-### Tools : Pyhton, FastApi, Transformers (Huggingface), Pytest, Github actions, Docker, Docker compose, VM
+### Tools : Python, FastApi, Transformers (Huggingface), Pytest, Github actions, Docker, Docker compose, Nginx, VM
 
 # Spell
 
