@@ -1,5 +1,5 @@
 ### Tools : Python, FastApi, Transformers (Huggingface), Pytest, Github actions, Docker, Docker compose, Nginx, VM
-[ Previously running on https://www.issamwo.pro/ ]
+<small>[ Previously running on https://www.issamwo.pro/ ]</small>
 
 # Spell
 
